@@ -1,0 +1,16 @@
+# Maven build output — never copy compiled files into Docker build context
+target/
+
+# Local Maven repository cache
+apache-maven-3.9.6/
+apache-maven-3.9.6-bin.zip
+
+# Git and IDE files
+.git/
+.gitignore
+.vscode/
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
